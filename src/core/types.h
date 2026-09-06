@@ -286,6 +286,7 @@ enum class ControllerType : u8
   PopnController,
   DDGoController,
   JogCon,
+  PSXKeyboard,
   Count
 };
 

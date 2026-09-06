@@ -74,6 +74,7 @@
     <ClCompile Include="core.cpp" />
     <ClCompile Include="sound_effect_manager.cpp" />
     <ClCompile Include="discord_presence.cpp" />
+    <ClCompile Include="psx_keyboard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="discord_presence.h" />
     <ClInclude Include="video_thread_private.h" />
     <ClInclude Include="controller_helpers.h" />
+    <ClInclude Include="psx_keyboard.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="gpu_sw_rasterizer.inl" />

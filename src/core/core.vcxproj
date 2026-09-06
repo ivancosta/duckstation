@@ -45,6 +45,7 @@
     <ClCompile Include="gpu_dump.cpp" />
     <ClCompile Include="gpu_hw_shadergen.cpp" />
     <ClCompile Include="gpu_hw_texture_cache.cpp" />
+    <ClCompile Include="psx_keyboard.cpp" />
     <ClCompile Include="video_presenter.cpp" />
     <ClCompile Include="video_shadergen.cpp" />
     <ClCompile Include="gpu_sw.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="gpu_helpers.h" />
     <ClInclude Include="gpu_hw_shadergen.h" />
     <ClInclude Include="gpu_hw_texture_cache.h" />
+    <ClInclude Include="psx_keyboard.h" />
     <ClInclude Include="video_presenter.h" />
     <ClInclude Include="video_shadergen.h" />
     <ClInclude Include="gpu_sw.h" />
