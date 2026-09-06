@@ -301,12 +301,12 @@ static const Controller::ControllerBindingInfo s_binding_info[] = {
 
     KEY("Enter", "Enter", Enter), KEY("Escape", "Escape", Escape),
     KEY("Backspace", "Backspace", Backspace), KEY("Tab", "Tab", Tab),
-    KEY("Space", "Space", Space), KEY("Minus", "-", Minus),
-    KEY("Equals", "=", Equals), KEY("LeftBracket", "[", LeftBracket),
-    KEY("RightBracket", "]", RightBracket), KEY("Backslash", "\\", Backslash),
-    KEY("Semicolon", ";", Semicolon), KEY("Apostrophe", "'", Apostrophe),
-    KEY("Grave", "`", Grave), KEY("Comma", ",", Comma),
-    KEY("Period", ".", Period), KEY("Slash", "/", Slash),
+    KEY("Space", "Space", Space), KEY("Minus", "- (minus)", Minus),
+    KEY("Equals", "= (equals)", Equals), KEY("LeftBracket", "[ (left bracket)", LeftBracket),
+    KEY("RightBracket", "] (right bracket)", RightBracket), KEY("Backslash", "\\ (backslash)", Backslash),
+    KEY("Semicolon", "; (semicolon)", Semicolon), KEY("Apostrophe", "' (apostrophe)", Apostrophe),
+    KEY("Grave", "` (backtick)", Grave), KEY("Comma", ", (comma)", Comma),
+    KEY("Period", ". (period)", Period), KEY("Slash", "/ (slash)", Slash),
     KEY("CapsLock", "Caps Lock", CapsLock),
 
     KEY("F1", "F1", F1), KEY("F2", "F2", F2), KEY("F3", "F3", F3),
